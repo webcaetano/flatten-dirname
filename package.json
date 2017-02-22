@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "async": "^2.1.2",
-    "fs-extra": "^2.0.0",
+    "cp-file": "^4.1.1",
     "glob": "^7.1.1",
     "lodash": "^4.13.1",
     "meow": "^3.7.0"

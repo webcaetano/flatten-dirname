@@ -1,6 +1,7 @@
 var path = require('path');
-var fs = require('fs-extra');
+var fs = require('fs');
 var glob = require('glob');
+var cpFile = require('cp-file');
 var async = require('async');
 var _ = require('lodash');
 
@@ -34,7 +35,9 @@ var self = function(src, dest, options, done){
 				});
 
 				run.push(function(callback){
-					fs.copy(file,path.join(dest,newName),callback);
+					cpFile(file,path.join(dest,newName)).then(function(a,b){
+						callback(a,b)
+					});
 				});
 			});
 
