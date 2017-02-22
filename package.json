@@ -1,6 +1,6 @@
 {
   "name": "flatten-dirnames",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Flatten files to from relative folders. But keep dirname on filename.",
   "main": "index.js",
   "author": "Andre Caetano",
