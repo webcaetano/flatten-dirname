@@ -1,0 +1,43 @@
+{
+  "name": "flatten-dirnames",
+  "version": "0.0.0",
+  "description": "Flatten files to from relative folders. But keep dirname on filename.",
+  "main": "index.js",
+  "author": "Andre Caetano",
+  "license": "MIT",
+  "bin": {
+    "fdname": "cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "glob": "^7.1.1",
+    "lodash": "^4.13.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "del": "^2.2.2",
+    "tempfile": "^1.1.1"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "flatten",
+    "dirname",
+    "filename",
+    "mv",
+    "copy",
+    "file",
+    "files",
+    "fs",
+    "glob",
+    "file-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcaetano/flatten-dirnames"
+  }
+}
