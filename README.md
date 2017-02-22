@@ -28,6 +28,18 @@ fdname('**/*.png','./destFolder',function(){
 
 });
 
+
+// this
+// heroes/lulu/hit/001.png
+// heroes/lulu/hit/002.png
+// heroes/janna/walk/001.png
+
+// return
+// destFolder/heroes_$_lulu_$_hit_$_001.png
+// destFolder/heroes_$_lulu_$_hit_$_002.png
+// destFolder/heroes_$_janna_$_walk_$_001.png
+
+
 // or
 fdname(['**/*.png'],'./destFolder',{split:'@'},function(){
 
@@ -75,6 +87,9 @@ Examples
 	fdname "**/*.png" "destFolder/" --split "@"
 ```
 
+## Check Also
+
+[filename-to-dir](https://github.com/webcaetano/filename-to-dir)
 
 ## License
 
