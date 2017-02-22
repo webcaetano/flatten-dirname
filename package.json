@@ -13,13 +13,16 @@
   },
   "dependencies": {
     "async": "^2.1.2",
+    "fs-extra": "^2.0.0",
     "glob": "^7.1.1",
     "lodash": "^4.13.1",
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.18.2",
+    "data-creatures": "^1.0.1",
     "del": "^2.2.2",
+    "mkdirp": "^0.5.1",
     "tempfile": "^1.1.1"
   },
   "keywords": [
