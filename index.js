@@ -26,14 +26,15 @@ var self = function(src, dest, options, done){
 
 			_.each(results.files,function(file){
 				var data = path.parse(file);
+
 				var newName = path.format({
-					dir:dest,
-					name:path.relative(dest,file).replace(/\//g,options.split),
+					// dir:dest,
+					name:file.replace(/\//g,options.split),
 					ext:'',
 				});
 
 				run.push(function(callback){
-					fs.copy(file,newName,callback);
+					fs.copy(file,path.join(dest,newName),callback);
 				});
 			});
 
