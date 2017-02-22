@@ -1,6 +1,6 @@
 {
   "name": "flatten-dirname",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flatten files to from relative folders. But keep dirname on filename.",
   "main": "index.js",
   "author": "Andre Caetano",
@@ -41,6 +41,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/webcaetano/flatten-dirnames"
+    "url": "https://github.com/webcaetano/flatten-dirname"
   }
 }

@@ -35,9 +35,7 @@ var self = function(src, dest, options, done){
 				});
 
 				run.push(function(callback){
-					cpFile(file,path.join(dest,newName)).then(function(a,b){
-						callback(a,b)
-					});
+					cpFile(file,path.join(dest,newName)).then(callback);
 				});
 			});
 
